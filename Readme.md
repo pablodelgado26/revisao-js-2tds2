@@ -32,3 +32,19 @@ Nome do Robô: A posição 0 do array deve indicar o nome do robô e a mensagem
 Plano de Ataque: Adicione a ordem dos ataques ao array, usando os índices do array armas.
 
 Relatório de Batalha: Exiba no console a sequência de ataques do seu robô, um por linha, prefixando cada ataque com "Ataque [número do ataque]: [nome do ataque]".
+
+## Exercício: Maratona de Livros 📚
+
+Contexto: Um leitor apaixonado por livros definiu uma meta de ler um certo número de livros por mês. Você precisa criar um programa que o ajude a acompanhar seu progresso e verificar se ele atingiu sua meta.
+
+Definir a Meta: Crie uma variável chamada metaLivros e defina a meta de leitura mensal (número inteiro).
+
+Registrar os Livros Lidos: Crie um array chamado livrosLidos e preencha-o com os nomes (strings) dos livros que o leitor já leu no mês atual. 
+
+Analisar o Progresso:
+
+- Utilize um laço de repetição for para percorrer o array livrosLidos e exibir no console o nome de cada livro lido.
+- Após o loop, utilize uma estrutura de decisão if para verificar se a quantidade de livros lidos (livrosLidos.length) atingiu ou ultrapassou a metaLivros.
+- Exiba no console a mensagem apropriada:
+    - Meta Atingida: "Parabéns! Você atingiu sua meta de leitura!"
+    - Meta Não Atingida: "Você está progredindo! Faltam [quantidade] livros para atingir sua meta."
